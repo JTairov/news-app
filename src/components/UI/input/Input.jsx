@@ -1,8 +1,9 @@
 import React from 'react'
-import classes from './Input.module.css'
+import { Input } from 'semantic-ui-react'
+// import classes from './Input.module.css'
 
 export default function MyInput(props) {
 	return (
-		<input className={classes.input} {...props}/>
+		<Input {...props}/>
 	)
 }

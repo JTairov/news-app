@@ -6,6 +6,7 @@ export default function PostFilter({filter, setFilter}) {
 	return (
 		<div>
 			  <MyInput
+          className='filter__input'
           placeholder='Поиск...'
           value={filter.query}
           onChange={e => setFilter({...filter, query: e.target.value})}

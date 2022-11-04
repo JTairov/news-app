@@ -18,7 +18,7 @@ export default function Navbar() {
 					<Link to='/home' className='navbar__link'>Home</Link>
 					<Link to='/posts' className='navbar__link'>Posts</Link>
 				</div>
-				<MyButton onClick={logout} className='leave'>Выйти</MyButton>
+				<MyButton onClick={logout} className='btn'>Выйти</MyButton>
 			</div>  
 		</div>
 	)

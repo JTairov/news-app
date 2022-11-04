@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'semantic-ui-react'
 import { getPagination } from '../../utils/pages'
 
 export default function Pagination({totalPages, page, changePage}) {
@@ -8,13 +9,13 @@ export default function Pagination({totalPages, page, changePage}) {
 		<div className='page-btns'>
 			{
 				pagesArray.map(p => 
-					<span
+					<Button
 						onClick={() => changePage(p)}
 						key={p}
-						className={p === page ? 'page-btn page-btn__current' : 'page-btn'}
+						color={p === page ? 'purple': ''}
 					>
 						{p}
-					</span>
+					</Button>
 				)
 			}
 		</div>

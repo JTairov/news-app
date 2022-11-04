@@ -55,6 +55,7 @@ export default function Posts() {
   return (
     <div className="App">
       <MyButton 
+        color='purple'
         style={
           {
             marginTop: "15px",

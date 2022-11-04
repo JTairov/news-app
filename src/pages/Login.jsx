@@ -15,9 +15,9 @@ export default function Login() {
 	return (
 		<div className='authorisation'>
 			<h1 className='authorisation__heading'>Страница авторизации</h1>
-			<form onSubmit={login}>
-				<MyInput type='text' placeholder='Логин'/>
-				<MyInput type='text' placeholder='Пароль'/>
+			<form onSubmit={login} className='authorisation__form'>
+				<MyInput type='text' placeholder='Логин' className='authorisation__input'/>
+				<MyInput type='text' placeholder='Пароль' className='authorisation__input'/>
 				<MyButton>Войти</MyButton>
 			</form>
 		</div>

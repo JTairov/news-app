@@ -20,13 +20,15 @@ export default function MyForm({createPost}) {
 
 	return (
 		<form>
-			<MyInput 
+			<MyInput
+				className="form__input" 
 				value={post.title}
 				onChange={e => setPost({...post, title: e.target.value})}
 				type="text"
 				placeholder="Заголовок поста"
 			/>
-			<MyInput 
+			<MyInput
+				className="form__input" 
 				value={post.body}
 				onChange={e => setPost({...post, body: e.target.value})}
 				type="text"
