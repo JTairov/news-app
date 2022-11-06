@@ -227,6 +227,10 @@ body {
 	margin-top: 15px;
 }
 
+.post__content {
+	width: 100%;
+}
+
 .ui.card strong {
 	font-size: 18px;
 }
@@ -398,3 +402,15 @@ hr {
 	width: 100%;
 	margin-bottom: 15px;
 }
+
+.postPage__body {
+	font-size: 28px;
+	line-height: 32px;
+}
+
+.postPage__heading,
+.postPage__subHeading {
+	font-family: 'Gilroy';
+	font-weight: 500;
+}
+

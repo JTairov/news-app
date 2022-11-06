@@ -23,13 +23,13 @@ export default function PostPage() {
 	}, [])
 	return (
 		<div className='postPage'>
-			<h1>Ты перешёл на страницу поста {params.id}</h1>
+			<h1 className='postPage__heading'>Post id: {params.id}</h1>
 			{
 				isLoading ?
 				<Loader/> :
-				<div>{post.id} {post.title}</div>
+				<div className='postPage__body'>{post.id} {post.title}</div>
 			}
-			<h1>Комментарии</h1>
+			<h2 className='postPage__subHeading'>Комментарии</h2>
 			{
 				commentsLoading ?
 				<Loader/> :
