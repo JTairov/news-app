@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 A news app that fetches post items from jsonplaceholder and renders them into an infinite posts feed (limited by a number of available posts on jsonplaceholder). The app allows to sort, search, add and remove posts from the feed. The app contains both public and private pages that a user can visit dependeing on whether user is logged in or logged out. The app allows user to open any post page that renders individual content and comments.
 
+## Check app screenshots below:
+### Login page
+
+
 ## Available Scripts
 
 In the project directory, you can run:
