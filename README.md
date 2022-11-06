@@ -6,7 +6,19 @@ A news app that fetches post items from jsonplaceholder and renders them into an
 
 ## Check app screenshots below:
 ### Login page
+![Login Page](./screenshots/login-page.png)
 
+### Home page
+![Home Page](./screenshots/home-page.png)
+
+### Posts page
+![Posts Page](./screenshots/posts-page.png)
+
+### Individual post page
+![Individual Post Page](./screenshots/individual-post.png)
+
+### Modal
+![Modal](./screenshots/modal.png)
 
 ## Available Scripts
 
