@@ -6,8 +6,9 @@ import Posts from "../pages/Posts"
 
 export const privateRoutes = [
 	{path: '/home', element:<Home/>},
+	{path: '/', element:<Home/>},
 	{path: '/posts', element:<Posts/>},
-	{path: '/*', element:<Home/> },
+	{path: '/*', element:<Error/> },
 	{path: '/posts/:id', element:<PostPage/> },
 ]
 export const publicRoutes = [
